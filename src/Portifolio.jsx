@@ -1,5 +1,5 @@
 // eslint-disable-next-line no-unused-vars
-import React, { useState } from "react";
+import React, { useState,useEffect } from "react";
 import "./portifolio.css";
 import EmailOutlinedIcon from "@mui/icons-material/EmailOutlined";
 import GitHubIcon from '@mui/icons-material/GitHub';
@@ -18,6 +18,18 @@ function Portfolio() {
             return !prevShowContact;
         });
     };
+    useEffect(() => {
+        const handleResize = () => {
+            if (window.innerWidth < 768) {
+                setShowContact(false); 
+            } else {
+                setShowContact(true); 
+            }
+        };
+        window.addEventListener("resize", handleResize);
+        handleResize();
+        return () => window.removeEventListener("resize", handleResize);
+    }, []);
 
     return (
         <div className="main">
@@ -44,11 +56,11 @@ function Portfolio() {
                         <div className="detail-res">
                             <div className="content">
                                 <div className="icon">
-                                    <EmailOutlinedIcon />
+                                    <EmailOutlinedIcon  />
                                 </div>
                                 <div>
                                     <p className="input">Email</p>
-                                    <p className="value">krishnasritarun95@gmail.com</p>
+                                    <a className="value" style={{ textDecoration: 'none'}}>krishnasritarun95@gmail.com</a>
                                 </div>
                             </div>
                             <div className="content">
