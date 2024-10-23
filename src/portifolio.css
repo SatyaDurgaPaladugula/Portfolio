@@ -104,9 +104,10 @@
       margin: 1rem;
       box-shadow: 5px 5px 10px rgba(98, 97, 97, 0.8);
       border-radius: 12px;
+      transition: transform 0.3s ease;
 }
 
-.body {
+.bodys {
       background-color: rgba(6, 6, 6, 0.684);
       flex: 6;
       margin: 1rem;
@@ -224,6 +225,10 @@ img {
             display: none;
       }
 
+      .sidebar {
+            height: auto;
+      }
+
       .image {
             width: 25%;
             max-width: 200px;
@@ -266,6 +271,24 @@ img {
             align-items: center;
             margin-top: 3px;
       }
+
+      /* maiṇ */
+      .nav {
+            justify-content: flex-end;
+      }
+
+      .con {
+            display: flex;
+            bottom: 1;
+            justify-content: space-around;
+            align-items: center;
+            background-color: rgba(56, 56, 56, 0.684);
+            padding: 16px;
+            width: 100%;
+            color: rgb(246, 212, 77);
+            border-top-right-radius: 12px;
+            border-bottom-left-radius: 12px;
+      }
 }
 
 @media screen and (max-width: 750px) {
@@ -277,6 +300,7 @@ img {
             /* border: 1px solid #ccc; */
             padding: 10px;
             justify-content: space-around;
+            height: 100%;
       }
 
       .detail-res {
@@ -370,4 +394,45 @@ img {
 .border {
       border: 0.5px solid white;
       margin: 20px;
+}
+
+/* body */
+.nav {
+      justify-content: flex-end;
+}
+
+.con {
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      background-color: rgba(56, 56, 56, 0.684);
+      padding: 16px;
+      width: 60%;
+      color: rgb(246, 212, 77);
+      border-top-right-radius: 12px;
+      border-bottom-left-radius: 12px;
+}
+
+.toggle-nav-btn {
+      display: none;
+      background-color: #333;
+      color: white;
+      padding: 10px;
+      border: none;
+      cursor: pointer;
+      font-size: 16px;
+}
+
+@media (max-width: 700px) {
+      .toggle-nav-btn {
+            display: block;
+      }
+
+      .nav {
+            display: none;
+      }
+
+      .nav.sticky-top {
+            display: block;
+      }
 }

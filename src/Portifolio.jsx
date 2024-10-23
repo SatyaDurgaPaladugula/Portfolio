@@ -12,15 +12,18 @@ import LocationOnOutlinedIcon from '@mui/icons-material/LocationOnOutlined';
 
 function Portfolio() {
     const [showContact, setShowContact] = useState(true);
-    const toggleContactDetails = () => {
+    const [activeSection, setActiveSection] = useState("about");
+    const [showNav, setShowNav] = useState(true);
+    const toggleContactDetails = (e) => {
         setShowContact((prevShowContact) => {
+            e.preventDefault();
             console.log("Toggling contact details:", !prevShowContact); 
             return !prevShowContact;
         });
     };
     useEffect(() => {
         const handleResize = () => {
-            if (window.innerWidth < 858) {
+            if (window.innerWidth < 1100) {
                 setShowContact(false); 
             } else {
                 setShowContact(true); 
@@ -29,8 +32,28 @@ function Portfolio() {
         window.addEventListener("resize", handleResize);
         handleResize();
         return () => window.removeEventListener("resize", handleResize);
+    },[]);
+    useEffect(() => {
+        const handleResize = () => {
+            if (window.innerWidth < 700) {
+                setShowNav(false); // Hide nav on small screens
+            } else {
+                setShowNav(true); // Show nav on large screens
+            }
+        };
+        window.addEventListener("resize", handleResize);
+        handleResize(); // Initial check
+        return () => window.removeEventListener("resize", handleResize);
     }, []);
-
+    
+    const showSection = (section,e) => {
+        e.preventDefault();
+        setActiveSection(section);
+    };
+    const toggleNav = () => {
+        setShowNav((prevShowNav) => !prevShowNav);
+    };
+    
     return (
         <div className="main">
             <div className="left"></div>
@@ -110,7 +133,55 @@ function Portfolio() {
                     </div>
                 )}
             </div>
-            <div className="body"></div>
+            <div className="bodys">
+    <button className="toggle-nav-btn" onClick={toggleNav}>
+        {showNav ? "Hide Menu" : "Show Menu"} 
+    </button>
+    {showNav && (
+        <nav className="nav sticky-top">
+            <div className="con">
+                <a onClick={(e) => showSection("about", e)} href="#about">About</a>
+                <a onClick={(e) => showSection("projects", e)} href="#projects">Projects</a>
+                <a onClick={(e) => showSection("skills", e)} href="#skills">Skills</a>
+                <a onClick={(e) => showSection("education", e)} href="#education">Education</a>
+                <a onClick={(e) => showSection("contact", e)} href="#contact">Contact</a>
+            </div>
+        </nav>
+    )}
+    <div>
+        {activeSection === "about" && (
+            <section id="about">
+                <h2>About Me</h2>
+                <p>Details about me...</p>
+            </section>
+        )}
+        {activeSection === "projects" && (
+            <section id="projects">
+                <h2>Projects</h2>
+                <p>Details about my projects...</p>
+            </section>
+        )}
+        {activeSection === "skills" && (
+            <section id="skills">
+                <h2>Skills</h2>
+                <p>Details about my skills...</p>
+            </section>
+        )}
+        {activeSection === "education" && (
+            <section id="education">
+                <h2>Education</h2>
+                <p>Details about my education...</p>
+            </section>
+        )}
+        {activeSection === "contact" && (
+            <section id="contact">
+                <h2>Contact</h2>
+                <p>Details about how to contact me...</p>
+            </section>
+        )}
+    </div>
+</div>
+
             <div className="right"></div>
         </div>
     );
