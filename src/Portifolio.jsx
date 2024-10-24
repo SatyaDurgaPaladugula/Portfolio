@@ -9,6 +9,8 @@ import { Visibility, VisibilityOff } from '@mui/icons-material';
 import PhoneInTalkIcon from '@mui/icons-material/PhoneInTalk';
 import CalendarMonthRoundedIcon from '@mui/icons-material/CalendarMonthRounded';
 import LocationOnOutlinedIcon from '@mui/icons-material/LocationOnOutlined';
+import MenuIcon from '@mui/icons-material/Menu';
+import CloseIcon from '@mui/icons-material/Close';
 
 function Portfolio() {
     const [showContact, setShowContact] = useState(true);
@@ -134,53 +136,55 @@ function Portfolio() {
                 )}
             </div>
             <div className="bodys">
-    <button className="toggle-nav-btn" onClick={toggleNav}>
-        {showNav ? "Hide Menu" : "Show Menu"} 
-    </button>
-    {showNav && (
-        <nav className="nav sticky-top">
-            <div className="con">
-                <a onClick={(e) => showSection("about", e)} href="#about">About</a>
-                <a onClick={(e) => showSection("projects", e)} href="#projects">Projects</a>
-                <a onClick={(e) => showSection("skills", e)} href="#skills">Skills</a>
-                <a onClick={(e) => showSection("education", e)} href="#education">Education</a>
-                <a onClick={(e) => showSection("contact", e)} href="#contact">Contact</a>
+                <nav className="nav sticky-top">
+                    {showNav && (
+                        <div className="con">
+                            <a onClick={(e) => showSection("about", e)} href="#about">About</a>
+                            <a onClick={(e) => showSection("projects", e)} href="#projects">Projects</a>
+                            <a onClick={(e) => showSection("skills", e)} href="#skills">Skills</a>
+                            <a onClick={(e) => showSection("education", e)} href="#education">Education</a>
+                            <a onClick={(e) => showSection("contact", e)} href="#contact">Contact</a>
+                        </div>
+                    )}
+                    <button className="toggle-nav-btn" onClick={toggleNav}>
+                        {showNav ? <CloseIcon /> : <MenuIcon /> } 
+                    </button>
+                </nav>
+
+                <div>
+                    {activeSection === "about" && (
+                        <section id="about">
+                            <h2>About Me</h2>
+                            <p>Details about me...</p>
+                        </section>
+                    )}
+                    {activeSection === "projects" && (
+                        <section id="projects">
+                            <h2>Projects</h2>
+                            <p>Details about my projects...</p>
+                        </section>
+                    )}
+                    {activeSection === "skills" && (
+                        <section id="skills">
+                            <h2>Skills</h2>
+                            <p>Details about my skills...</p>
+                        </section>
+                    )}
+                    {activeSection === "education" && (
+                        <section id="education">
+                            <h2>Education</h2>
+                            <p>Details about my education...</p>
+                        </section>
+                    )}
+                    {activeSection === "contact" && (
+                        <section id="contact">
+                            <h2>Contact</h2>
+                            <p>Details about how to contact me...</p>
+                        </section>
+                    )}
+                </div>
             </div>
-        </nav>
-    )}
-    <div>
-        {activeSection === "about" && (
-            <section id="about">
-                <h2>About Me</h2>
-                <p>Details about me...</p>
-            </section>
-        )}
-        {activeSection === "projects" && (
-            <section id="projects">
-                <h2>Projects</h2>
-                <p>Details about my projects...</p>
-            </section>
-        )}
-        {activeSection === "skills" && (
-            <section id="skills">
-                <h2>Skills</h2>
-                <p>Details about my skills...</p>
-            </section>
-        )}
-        {activeSection === "education" && (
-            <section id="education">
-                <h2>Education</h2>
-                <p>Details about my education...</p>
-            </section>
-        )}
-        {activeSection === "contact" && (
-            <section id="contact">
-                <h2>Contact</h2>
-                <p>Details about how to contact me...</p>
-            </section>
-        )}
-    </div>
-</div>
+
 
             <div className="right"></div>
         </div>
