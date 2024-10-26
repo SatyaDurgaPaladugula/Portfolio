@@ -33,7 +33,7 @@ function SideBar() {
             <>
                   <div className="sidebar">
                         <div className="intro">
-                              <img src="Discord_TA_pfp.jpg" alt="Profile" className="image" />
+                              <img src="profile.jpg" alt="Profile" className="image" />
                               <div className="role">
                                     <h1 className="name">Krishna Sri Tarun</h1>
                                     <div className="roles">

@@ -122,8 +122,9 @@
 .icon_bottom2 {
       margin: 0 15px;
       text-decoration: none;
+      filter: drop-shadow(0 0 3px rgb(166, 165, 165));
 }
 
-.icon_bottom:hover {
-      color: #f8f9fb;
+.icon_bottom2:hover {
+      color: #0c0c0c;
 }
