@@ -1,7 +1,5 @@
-/* Contact Section */
 #contact {
       padding: 2rem;
-      /* background-color: #333; */
       color: #fff;
       border-radius: 8px;
       max-width: 600px;
@@ -9,9 +7,10 @@
 }
 
 #contact h2 {
-      font-size: 2rem;
+      font-size: 2.5rem;
       margin-bottom: 1rem;
       text-align: center;
+      font-weight: bold;
 }
 
 #contact p {
@@ -112,4 +111,19 @@
             padding: 0.6rem;
             font-size: 0.9rem;
       }
+}
+
+.social-footer {
+      display: flex;
+      justify-content: center;
+      margin-top: 32px;
+}
+
+.icon_bottom2 {
+      margin: 0 15px;
+      text-decoration: none;
+}
+
+.icon_bottom:hover {
+      color: #f8f9fb;
 }
