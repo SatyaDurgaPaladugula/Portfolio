@@ -105,6 +105,7 @@
       border-radius: 12px;
       transition: transform 0.3s ease;
       padding: 0.4rem;
+      padding-bottom: 1rem;
 }
 
 .bodys {
@@ -114,6 +115,7 @@
       box-shadow: 5px 5px 10px rgba(98, 97, 97, 0.8);
       border-radius: 12px;
       height: 100%;
+      padding-bottom: 1rem;
 }
 
 img {
@@ -292,7 +294,7 @@ img {
       }
 }
 
-@media screen and (max-width: 750px) {
+@media screen and (max-width: 768px) {
       .details {
             display: flex;
             flex-direction: column;
@@ -303,6 +305,9 @@ img {
             justify-content: space-around;
             height: 75%;
             border-radius: 12px;
+            .card-icon {
+                  display: none;
+            }
       }
 
       .detail-res {
@@ -398,65 +403,6 @@ img {
       margin: 20px;
 }
 
-/* body */
-.nav {
-      justify-content: flex-end;
-}
-
-.con {
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-      background-color: rgba(56, 56, 56, 0.684);
-      padding: 16px;
-      width: 60%;
-      color: rgb(246, 212, 77);
-      border-top-right-radius: 12px;
-      border-bottom-left-radius: 12px;
-}
-
-.toggle-nav-btn {
-      display: none;
-      background-color: #333;
-      color: white;
-      padding: 11px;
-      padding-left: 16px;
-      padding-right: 16px;
-      border: none;
-      cursor: pointer;
-      font-size: 16px;
-      position: absolute;
-      right: 10px;
-      height: 55px;
-}
-
-@media (max-width: 768px) {
-      .toggle-nav-btn {
-            display: block;
-            right: 15px;
-      }
-
-      .nav {
-            display: none;
-            margin-right: 40px;
-      }
-
-      .nav.sticky-top {
-            display: block;
-      }
-
-      .con {
-            width: 100%;
-            align-items: flex-end;
-            border-top-left-radius: 12px;
-            border-top-right-radius: 12px;
-            border-bottom-left-radius: 0px;
-      }
-      .card-icon {
-            display: none;
-      }
-}
-
 .card {
       background-color: rgb(107, 107, 107) !important;
       margin-bottom: 20px;
@@ -466,4 +412,15 @@ img {
 
 .card-icon {
       font-size: 80px;
+}
+.download{
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin: 3%;
+}
+.btn{
+      background-color: rgb(246, 212, 77) !important;
+      border: none !important;
+      padding: 10px !important;
 }
