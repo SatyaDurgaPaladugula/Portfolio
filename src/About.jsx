@@ -1,7 +1,6 @@
 // About.js
 // eslint-disable-next-line no-unused-vars
 import React from "react";
-import LanguageIcon from "@mui/icons-material/Language";
 import DownloadIcon from '@mui/icons-material/Download';
 const About = () => {
       return (
@@ -28,49 +27,27 @@ const About = () => {
                               impact through technology.
                         </p>
                   </div>
-                  <div className="container">
+                  <h2 className="about-head text-white font-semibold text-2xl text-center pl-5 mb-3">
+                              <span className="border-b-2 border-amber-400">Volunteer Experience</span>
+                  </h2>
+                  <div className="container mb-5">
                         <div className="row">
                               <div className="col-md-6">
-                                    <div className="card d-flex align-items-center p-3">
-                                          <div className="container">
-                                                <div className="row align-items-center">
-                                                      <div className="col-md-1">
-                                                            <LanguageIcon className="card-icon" />
-                                                      </div>
-                                                      <div className="col-md-11">
-                                                            <div className="card-content">
-                                                                  <h3>Software Developer</h3>
-                                                                  <p>
-                                                                        Focused on developing robust applications and efficient code for various platforms.
-                                                                  </p>
-                                                            </div>
-                                                      </div>
-                                                </div>
-                                          </div>
+                                    <div className="card d-flex font-medium align-items-center p-3 m-3">
+                                          <h1 className="text-white text-2xl pl-5">Student Mentor</h1>
+                                          <p className="text-gray-300">Guided juniors in machine learning topics and mentored them on implementing machine learning algorithms for
+                                          hackathon projects.</p>
                                     </div>
                               </div>
                               <div className="col-md-6">
-                                    <div className="card d-flex align-items-center p-3">
-                                          <div className="container">
-                                                <div className="row align-items-center">
-                                                      <div className="col-md-1">
-                                                            <LanguageIcon className="card-icon" />
-                                                      </div>
-                                                      <div className="col-md-11">
-                                                            <div className="card-content">
-                                                                  <h3>Web Developer</h3>
-                                                                  <p>
-                                                                        Specializing in building responsive and user-friendly websites using modern technologies.
-                                                                  </p>
-                                                            </div>
-                                                      </div>
-                                                </div>
-                                          </div>
+                                    <div className="card d-flex font-medium align-items-center p-3 m-3">
+                                          <h1 className="text-white text-2xl pl-5">Teaching Assistant</h1>
+                                          <p className="text-gray-300">Guided MERN stack developers with technical support and innovative solutions, enhancing project workflows and collaboration.</p>
                                     </div>
                               </div>
                         </div>
                   </div>
-                  <div className="download">
+                  <div className="download mb-5">
                         <a href="/Krishna-Sri-Tarun-Resume.pdf" download className="btn">Resume<DownloadIcon /></a>
                   </div>
             </section>

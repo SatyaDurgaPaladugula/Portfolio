@@ -181,6 +181,10 @@ img {
 .icon_bottom {
       filter: drop-shadow(0 0 3px rgb(250, 250, 250));
       background-color: transparent;
+      text-decoration: none;
+}
+.icon_bottom:hover,.leet_code_icon:hover {
+      color: rgb(34, 34, 34);
 }
 
 .leet_code_icon {

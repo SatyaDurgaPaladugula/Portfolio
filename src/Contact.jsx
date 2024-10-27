@@ -49,7 +49,8 @@ const Contact = () => {
 
       return (
             <section id="contact">
-                  <h2 className="contact-heading">Contact</h2>
+                  <h2 className="contact-heading">
+                        <span className="border-b-4 border-amber-400">Contact</span></h2>
                   <p>Feel free to reach out using the form below.</p>
 
                   {statusMessage && <p className="status-message">{statusMessage}</p>}

@@ -5,28 +5,16 @@ import SideBar from "./SideBar";
 import NavBar from "./NavBar";
 import Contact from "./Contact"
 import About from "./About";
+import Projects from "./Projects";
 
 function Portfolio() {
     const [activeSection, setActiveSection] = useState("about");
     return (
         <div className="main">
-            <div className="left"></div>
-            <SideBar />
-            <div className="bodys">
-                <NavBar
-                    activeSection={activeSection}
-                    setActiveSection={setActiveSection}
-                />
-                <div>
-                    {activeSection === "about" && (
-                        <About/>
-                    )}
-                    {activeSection === "projects" && (
-                        <section id="projects">
-                            <h2>Projects</h2>
-                            <p>Details about my projects...</p>
-                        </section>
-                    )}
+            <div className="left"></div> <SideBar /> <div className="bodys">
+                <NavBar activeSection={activeSection} setActiveSection={setActiveSection}/>
+                <div> {activeSection === "about" && ( <About/> )}
+                    {activeSection === "projects" && ( <Projects/> )}
                     {activeSection === "skills" && (
                         <section id="skills">
                             <h2>Skills</h2>
@@ -40,7 +28,7 @@ function Portfolio() {
                         </section>
                     )}
                     {activeSection === "contact" && (
-                        <Contact/>
+                        <Contact />
                     )}
                 </div>
             </div>
