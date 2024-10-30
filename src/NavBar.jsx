@@ -59,7 +59,7 @@ function NavBar({ activeSection, setActiveSection }) {
                                           <>
                                                 <a onClick={(e) => showSection("about", e)} href="#about" className={activeSection === "about" ? "active" : ""}>About</a>
                                                 <a onClick={(e) => showSection("projects", e)} href="#projects" className={activeSection === "projects" ? "active" : ""}>Projects</a>
-                                                <a onClick={(e) => showSection("skills", e)} href="#skills" className={activeSection === "skills" ? "active" : ""}>Experience</a>
+                                                <a onClick={(e) => showSection("skills", e)} href="#skills" className={activeSection === "skills" ? "active" : ""}>Skills</a>
                                                 <a onClick={(e) => showSection("education", e)} href="#education" className={activeSection === "education" ? "active" : ""}>Education</a>
                                                 <a onClick={(e) => showSection("contact", e)} href="#contact" className={activeSection === "contact" ? "active" : ""}>Contact</a>
                                           </>
