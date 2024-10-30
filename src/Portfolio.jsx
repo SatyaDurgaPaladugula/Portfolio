@@ -1,6 +1,6 @@
 // eslint-disable-next-line no-unused-vars
 import React, { useState } from "react";
-import "./Portifolio.css";
+import "./Portfolio.css";
 import SideBar from "./SideBar";
 import NavBar from "./NavBar";
 import Contact from "./Contact";

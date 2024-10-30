@@ -1,11 +1,11 @@
 import './App.css'
-import Portifolio from './Portifolio'
+import Portfolio from './Portfolio'
 
 function App() {
 
   return (
     <>
-      <Portifolio/>
+      <Portfolio/>
     </>
   )
 }
