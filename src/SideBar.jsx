@@ -37,7 +37,7 @@ function SideBar() {
                               <div className="role">
                                     <h1 className="name">Krishna Sri Tarun</h1>
                                     <div className="roles">
-                                          <p>Software Developer</p>
+                                          <p>Full Stack Developer</p>
                                     </div>
                                     <button className="details-button" onClick={toggleContactDetails}>
                                           {showContact ? "Hide Contact" : "Show Contact"}

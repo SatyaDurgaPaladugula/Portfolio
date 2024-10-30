@@ -81,6 +81,8 @@
       margin: 0;
       padding: 0;
       box-sizing: border-box;
+      transition: (var(--transition-1));
+      transition: (var(--transition-2));
 }
 
 .main {
@@ -103,7 +105,6 @@
       margin: 1rem;
       box-shadow: 5px 5px 10px rgba(98, 97, 97, 0.8);
       border-radius: 12px;
-      transition: transform 0.3s ease;
       padding: 0.4rem;
       padding-bottom: 1rem;
 }
@@ -122,9 +123,6 @@ img {
       display: block;
 }
 
-.has-scrollbar::-webkit-scrollbar-button {
-      width: 20px;
-}
 
 .intro {
       display: flex;

@@ -11,7 +11,31 @@ function Skills() {
                   <h2 className="about-head text-white font-bold text-4xl pl-5 mb-5">
                         <span className="border-b-4 border-amber-400 rounded-sm">Skills</span>
                   </h2>
-
+                  <h2 className="about-head text-white font-semibold text-2xl pl-5 mb-5">
+                        <span className="border-b-2 border-amber-400">Certifications</span>
+                  </h2>
+                  <div className="container mb-3">
+                        <div className="row m-1">
+                              <div className="col-md-6 mb-3">
+                                    <div className="card d-flex font-medium align-items-center p-3 m-3 text-white">
+                                          <h2 className="text-lg mb-2">Machine learning</h2>
+                                          <p className="text-gray-300 align-items-center">IIIT Hyderabad</p>
+                                    </div>
+                              </div>
+                              <div className="col-md-6 mb-3">
+                                    <div className="card d-flex font-medium align-items-center p-3 m-3 text-white">
+                                          <h2 className="text-lg mb-2">Full Stack Web Development</h2>
+                                          <p className="text-gray-300 align-items-center">Apna College</p>
+                                    </div>
+                              </div>
+                              <div className="col-md-6 mb-3">
+                                    <div className="card d-flex font-medium align-items-center p-3 m-3 text-white">
+                                          <h2 className="text-lg mb-2">MongoDB</h2>
+                                          <p className="text-gray-300 align-items-center">Greeks for Greeks</p>
+                                    </div>
+                              </div>
+                        </div>
+                  </div>
                   {/* Languages */}
                   <h2 className="about-head text-white font-semibold text-2xl pl-5 mb-5">
                         <span className="border-b-2 border-amber-400">Languages</span>
