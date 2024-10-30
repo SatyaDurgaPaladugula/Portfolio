@@ -7,7 +7,7 @@ function Projects() {
                         <div className="projects">
                               <div className="container mb-3">
                                     <div className="row m-1">
-                                          <h2 className="about-head text-white font-bold text-3xl pl-5 mb-5">
+                                          <h2 className="about-head text-white font-bold text-4xl pl-5 mb-5">
                                                 <span className="border-b-4 border-amber-400 rounded-sm">Mern Projects</span>
                                           </h2>
                                           <div className="col-md-6 mb-3">
