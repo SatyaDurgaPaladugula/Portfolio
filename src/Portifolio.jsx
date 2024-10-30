@@ -15,7 +15,7 @@ function Portfolio() {
     return (
         <div className="main">
             <div className="left"></div>
-            <SideBar />
+            <SideBar/>
             <div className="bodys">
                 <NavBar activeSection={activeSection} setActiveSection={setActiveSection} />
                 <div>
