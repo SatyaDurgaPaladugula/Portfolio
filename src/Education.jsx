@@ -51,6 +51,7 @@ function Education() {
                   <section className="timeline mt-5">
                         <div className="title-wrapper about-head text-white font-bold text-3xl">
                               <div className="icon-box">
+                                    
                                     <ImportContactsIcon />
                               </div>
                               <h3 className="h3 border-b-4 border-amber-400 rounded-sm">
@@ -59,6 +60,16 @@ function Education() {
                         </div>
                   </section>
                   <ol className="timeline-list mb-4">
+                        <li className="timeline-item">
+                              <h1 className="about-head text-white font-semibold text-2xl">
+                                    Frontend Developer{" "}
+                                    <span className="text-black text-xl">(GROWTHMATE INFO TECH SOFTWARE SOLUTION PRIVATE LIMITED)</span>
+                              </h1>
+                              <span>11/2024 — 03/2025</span>
+                              <p className="text-base font-medium">
+                                    Frontend Developer skilled in Java Full-Stack with hands-on experience at Growthmate Infotech as a Full Stack Development Intern. I create responsive, user-friendly interfaces using HTML, CSS, JavaScript, and frameworks like React.js and Bootstrap. Passionate about crafting seamless web experiences, blending backend logic with innovative frontend design.
+                              </p>
+                        </li>
                         <li className="timeline-item">
                               <h1 className="about-head text-white font-semibold text-2xl">
                                     Teaching Assistant{" "}

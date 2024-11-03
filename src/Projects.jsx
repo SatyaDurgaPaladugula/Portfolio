@@ -12,7 +12,7 @@ function Projects() {
                                           </h2>
                                           <div className="col-md-6 mb-3">
                                                 <a href="https://journeygem.onrender.com/listings" target="_blank" rel="noopener noreferrer">
-                                                      <Cards hs="Full Stack Travellind Website" imgSrc="DALL·E 2024-10-23 23.35.02 - A minimalistic and professional icon based on the initials 'KST.' The design features sleek, modern typography for the letters 'K,' 'S,' and 'T,' with.webp"
+                                                      <Cards hs="Full Stack Travellind Website" imgSrc="image.png"
                                                             description="Developed a full-stack travel website using the MERN stack with RESTful APIs, user authentication, interactive maps, and review features to enhance user experience." />
                                                 </a>
                                           </div>
