@@ -83,6 +83,7 @@
       box-sizing: border-box;
       transition: (var(--transition-1));
       transition: (var(--transition-2));
+      font-family: "Open Sans", serif;
 }
 
 .main {
@@ -90,12 +91,14 @@
       flex-direction: row;
       justify-content: center;
       height: 100%;
+      background-color: rgb(40, 39, 39);
+      color: white;
 }
 
 .left,
 .right {
       flex: 0.5;
-      background-color: rgb(245, 248, 248);
+      background-color: rgb(40, 39, 39);
 }
 
 .sidebar {
@@ -177,14 +180,14 @@ img {
 }
 
 .icon_bottom {
-      filter: drop-shadow(0 0 3px rgb(250, 250, 250));
       background-color: transparent;
       text-decoration: none;
 }
 
 .icon_bottom:hover,
 .leet_code_icon:hover {
-      color: rgb(34, 34, 34);
+      color: rgb(251 191 36);
+      /* filter: drop-shadow(0 0 3px rgb(246, 246, 245)); */
 }
 
 .leet_code_icon {
@@ -409,10 +412,10 @@ img {
 }
 
 .card {
-      background-color: rgb(107, 107, 107) !important;
+      background-color: rgba(36, 36, 36, 0.925) !important;
       margin-bottom: 20px;
       border-radius: 8px;
-      box-shadow: 5px 5px 5px rgba(200, 199, 199, 0.5);
+      box-shadow: 6px 5px 5px rgba(200, 199, 199, 0.5);
 }
 
 .card-icon {

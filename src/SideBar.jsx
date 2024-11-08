@@ -35,7 +35,7 @@ function SideBar() {
                         <div className="intro">
                               <img src="profile.jpg" alt="Profile" className="image" />
                               <div className="role">
-                                    <h1 className="name">Krishna Sri Tarun</h1>
+                                    <h1 className="name">KRISHNA SRI TARUN</h1>
                                     <div className="roles">
                                           <p>Full Stack Developer</p>
                                     </div>

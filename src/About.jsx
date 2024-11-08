@@ -33,14 +33,14 @@ const About = () => {
                   <div className="container mb-5">
                         <div className="row">
                               <div className="col-md-6">
-                                    <div className="card d-flex font-medium align-items-center p-3 m-3">
+                                    <div className="card d-flex font-medium align-items-center p-4 m-3">
                                           <h1 className="text-white text-2xl pl-5">Student Mentor</h1>
                                           <p className="text-gray-300">Guided juniors in machine learning topics and mentored them on implementing machine learning algorithms for
                                           hackathon projects.</p>
                                     </div>
                               </div>
                               <div className="col-md-6">
-                                    <div className="card d-flex font-medium align-items-center p-3 m-3">
+                                    <div className="card d-flex font-medium align-items-center p-4 m-3">
                                           <h1 className="text-white text-2xl pl-5">Teaching Assistant</h1>
                                           <p className="text-gray-300">Guided MERN stack developers with technical support and innovative solutions, enhancing project workflows and collaboration.</p>
                                     </div>

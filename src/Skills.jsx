@@ -75,7 +75,7 @@ function Skills() {
                               <h3 className="text-lg md:text-xl text-white mt-2">JavaScript</h3>
                         </div>
                         <div className="icons flex flex-col items-center text-center shadow-[0px_0px_8px_0px_rgba(255,255,255,0.5)] hover:shadow-[0px_0px_15px_0px_rgba(255,255,255,0.7)] rounded-xl px-5 py-2 transition-transform transform hover:scale-105">
-                              <TbSql size={40} color="#003B57" />
+                              <TbSql size={40} color="rgb(40, 225, 241)" />
                               <h3 className="text-lg md:text-xl text-white mt-2">SQL</h3>
                         </div>
                         <div className="icons flex flex-col items-center text-center shadow-[0px_0px_8px_0px_rgba(255,255,255,0.5)] hover:shadow-[0px_0px_15px_0px_rgba(255,255,255,0.7)] rounded-xl px-5 py-2 transition-transform transform hover:scale-105">
@@ -102,11 +102,11 @@ function Skills() {
                               <h3 className="text-lg md:text-xl text-white mt-2">Node.js</h3>
                         </div>
                         <div className="icons flex flex-col items-center text-center shadow-[0px_0px_8px_0px_rgba(255,255,255,0.5)] hover:shadow-[0px_0px_15px_0px_rgba(255,255,255,0.7)] rounded-xl px-5 py-2 transition-transform transform hover:scale-105">
-                              <SiExpress size={40} color="#000000" />
-                              <h3 className="text-lg md:text-xl text-white mt-2">Express.js</h3>
+                              <SiExpress size={40} color="rgb(255,255,255)" />
+                              <h3 className="text-lg md:text-xl text-white mt-2 ">Express.js</h3>
                         </div>
                         <div className="icons flex flex-col items-center text-center shadow-[0px_0px_8px_0px_rgba(255,255,255,0.5)] hover:shadow-[0px_0px_15px_0px_rgba(255,255,255,0.7)] rounded-xl px-5 py-2 transition-transform transform hover:scale-105">
-                              <SiFlask size={40} color="#000000" />
+                              <SiFlask size={40} color="rgb(255,255,255)" />
                               <h3 className="text-lg md:text-xl text-white mt-2">Flask</h3>
                         </div>
                         <div className="icons flex flex-col items-center text-center shadow-[0px_0px_8px_0px_rgba(255,255,255,0.5)] hover:shadow-[0px_0px_15px_0px_rgba(255,255,255,0.7)] rounded-xl px-5 py-2 transition-transform transform hover:scale-105">
@@ -138,7 +138,7 @@ function Skills() {
                               <h3 className="text-lg md:text-xl text-white mt-2">Git</h3>
                         </div>
                         <div className="icons flex flex-col items-center text-center shadow-[0px_0px_8px_0px_rgba(255,255,255,0.5)] hover:shadow-[0px_0px_15px_0px_rgba(255,255,255,0.7)] rounded-xl px-5 py-2 transition-transform transform hover:scale-105">
-                              <SiGithub size={40} color="#181717" />
+                              <SiGithub size={40} color="rgb(255,255,255)" />
                               <h3 className="text-lg md:text-xl text-white mt-2">GitHub</h3>
                         </div>
                         <div className="icons flex flex-col items-center text-center shadow-[0px_0px_8px_0px_rgba(255,255,255,0.5)] hover:shadow-[0px_0px_15px_0px_rgba(255,255,255,0.7)] rounded-xl px-5 py-2 transition-transform transform hover:scale-105">
