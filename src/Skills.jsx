@@ -2,18 +2,14 @@
 import React from "react";
 import {
       FaJava,
-      FaNodeJs,
       FaBrain,
       FaPython,
-      FaJsSquare,
       FaHtml5,
       FaCss3,
 } from "react-icons/fa";
 import { TbSql } from "react-icons/tb";
 import { VscVscode } from "react-icons/vsc";
 import {
-      SiReact,
-      SiExpress,
       SiFlask,
       SiBootstrap,
       SiTailwindcss,
@@ -21,7 +17,6 @@ import {
       SiMysql,
       SiGit,
       SiGithub,
-      SiRedux,
 } from "react-icons/si";
 
 function Skills() {
@@ -43,8 +38,8 @@ function Skills() {
                               </div>
                               <div className="col-md-6 mb-3">
                                     <div className="card d-flex font-medium align-items-center text-white p-3">
-                                          <h2 className="text-lg mb-2">Web Development</h2>
-                                          <p className="text-gray-300 align-items-center">Apna College</p>
+                                          <h2 className="text-lg mb-2">Advanced Python</h2>
+                                          <p className="text-gray-300 align-items-center">Edyst</p>
                                     </div>
                               </div>
                               <div className="col-md-6 mb-3">
@@ -61,18 +56,14 @@ function Skills() {
                   <h2 className="about-head text-white font-semibold text-2xl pl-5 mb-5">
                         <span className="border-b-2 border-amber-400">Languages</span>
                   </h2>
-                  <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-6 gap-5 items-center justify-center">
-                        <div className="icons flex flex-col items-center text-center shadow-[0px_0px_8px_0px_rgba(255,255,255,0.5)] hover:shadow-[0px_0px_15px_0px_rgba(255,255,255,0.7)] rounded-xl px-5 py-2 transition-transform transform hover:scale-105">
-                              <FaJava size={40} color="#007396" />
-                              <h3 className="text-lg md:text-xl text-white mt-2">Java</h3>
-                        </div>
+                  <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-5 items-center justify-center">
                         <div className="icons flex flex-col items-center text-center shadow-[0px_0px_8px_0px_rgba(255,255,255,0.5)] hover:shadow-[0px_0px_15px_0px_rgba(255,255,255,0.7)] rounded-xl px-5 py-2 transition-transform transform hover:scale-105">
                               <FaPython size={40} color="#3776AB" />
                               <h3 className="text-lg md:text-xl text-white mt-2">Python</h3>
                         </div>
                         <div className="icons flex flex-col items-center text-center shadow-[0px_0px_8px_0px_rgba(255,255,255,0.5)] hover:shadow-[0px_0px_15px_0px_rgba(255,255,255,0.7)] rounded-xl px-5 py-2 transition-transform transform hover:scale-105">
-                              <FaJsSquare size={40} color="#F7DF1E" />
-                              <h3 className="text-lg md:text-xl text-white mt-2">JavaScript</h3>
+                              <FaJava size={40} color="#007396" />
+                              <h3 className="text-lg md:text-xl text-white mt-2">Java</h3>
                         </div>
                         <div className="icons flex flex-col items-center text-center shadow-[0px_0px_8px_0px_rgba(255,255,255,0.5)] hover:shadow-[0px_0px_15px_0px_rgba(255,255,255,0.7)] rounded-xl px-5 py-2 transition-transform transform hover:scale-105">
                               <TbSql size={40} color="rgb(40, 225, 241)" />
@@ -92,19 +83,7 @@ function Skills() {
                   <h2 className="about-head text-white font-semibold text-2xl pl-5 mb-5 mt-10">
                         <span className="border-b-2 border-amber-400">Frameworks</span>
                   </h2>
-                  <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-6 gap-5 items-center justify-center">
-                        <div className="icons flex flex-col items-center text-center shadow-[0px_0px_8px_0px_rgba(255,255,255,0.5)] hover:shadow-[0px_0px_15px_0px_rgba(255,255,255,0.7)] rounded-xl px-5 py-2 transition-transform transform hover:scale-105">
-                              <SiReact size={40} color="#61DBFB" />
-                              <h3 className="text-lg md:text-xl text-white mt-2">React.js</h3>
-                        </div>
-                        <div className="icons flex flex-col items-center text-center shadow-[0px_0px_8px_0px_rgba(255,255,255,0.5)] hover:shadow-[0px_0px_15px_0px_rgba(255,255,255,0.7)] rounded-xl px-5 py-2 transition-transform transform hover:scale-105">
-                              <FaNodeJs size={40} color="#68A063" />
-                              <h3 className="text-lg md:text-xl text-white mt-2">Node.js</h3>
-                        </div>
-                        <div className="icons flex flex-col items-center text-center shadow-[0px_0px_8px_0px_rgba(255,255,255,0.5)] hover:shadow-[0px_0px_15px_0px_rgba(255,255,255,0.7)] rounded-xl px-5 py-2 transition-transform transform hover:scale-105">
-                              <SiExpress size={40} color="rgb(255,255,255)" />
-                              <h3 className="text-lg md:text-xl text-white mt-2 ">Express.js</h3>
-                        </div>
+                  <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-3 gap-5 items-center justify-center">
                         <div className="icons flex flex-col items-center text-center shadow-[0px_0px_8px_0px_rgba(255,255,255,0.5)] hover:shadow-[0px_0px_15px_0px_rgba(255,255,255,0.7)] rounded-xl px-5 py-2 transition-transform transform hover:scale-105">
                               <SiFlask size={40} color="rgb(255,255,255)" />
                               <h3 className="text-lg md:text-xl text-white mt-2">Flask</h3>
@@ -124,7 +103,7 @@ function Skills() {
                   <h2 className="about-head text-white font-semibold text-2xl pl-5 mb-5 mt-10">
                         <span className="border-b-2 border-amber-400">Tools</span>
                   </h2>
-                  <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-6 gap-5 items-center justify-center">
+                  <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-5 items-center justify-center">
                         <div className="icons flex flex-col items-center text-center shadow-[0px_0px_8px_0px_rgba(255,255,255,0.5)] hover:shadow-[0px_0px_15px_0px_rgba(255,255,255,0.7)] rounded-xl px-5 py-2 transition-transform transform hover:scale-105">
                               <SiMongodb size={40} color="#47A248" />
                               <h3 className="text-lg md:text-xl text-white mt-2">MongoDB</h3>
@@ -144,10 +123,6 @@ function Skills() {
                         <div className="icons flex flex-col items-center text-center shadow-[0px_0px_8px_0px_rgba(255,255,255,0.5)] hover:shadow-[0px_0px_15px_0px_rgba(255,255,255,0.7)] rounded-xl px-5 py-2 transition-transform transform hover:scale-105">
                               <VscVscode size={40} color="#0066F1" />
                               <h3 className="text-lg md:text-xl text-white mt-2">VS</h3>
-                        </div>
-                        <div className="icons flex flex-col items-center text-center shadow-[0px_0px_8px_0px_rgba(255,255,255,0.5)] hover:shadow-[0px_0px_15px_0px_rgba(255,255,255,0.7)] rounded-xl px-5 py-2 transition-transform transform hover:scale-105">
-                              <SiRedux size={40} color="#764ABC" />
-                              <h3 className="text-lg md:text-xl text-white mt-2">Redux</h3>
                         </div>
                   </div>
                   {/* Technologies */}

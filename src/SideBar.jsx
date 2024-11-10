@@ -3,7 +3,6 @@ import React, { useState, useEffect } from "react";
 import EmailOutlinedIcon from "@mui/icons-material/EmailOutlined";
 import GitHubIcon from '@mui/icons-material/GitHub';
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
-import InstagramIcon from '@mui/icons-material/Instagram';
 import { Visibility, VisibilityOff } from '@mui/icons-material';
 import PhoneInTalkIcon from '@mui/icons-material/PhoneInTalk';
 import CalendarMonthRoundedIcon from '@mui/icons-material/CalendarMonthRounded';
@@ -35,9 +34,9 @@ function SideBar() {
                         <div className="intro">
                               <img src="profile.jpg" alt="Profile" className="image" />
                               <div className="role">
-                                    <h1 className="name">KRISHNA SRI TARUN</h1>
+                                    <h1 className="name">SATYA DURGA</h1>
                                     <div className="roles">
-                                          <p>Full Stack Developer</p>
+                                          <p>Software Developer</p>
                                     </div>
                                     <button className="details-button" onClick={toggleContactDetails}>
                                           {showContact ? "Hide Contact" : "Show Contact"}
@@ -58,7 +57,7 @@ function SideBar() {
                                                 <div>
                                                       <p className="input">Email</p>
                                                       <a className="value" style={{ textDecoration: "none" }}>
-                                                            krishnasritarun95@gmail.com
+                                                            satyadurgapaladugula@gmail.com
                                                       </a>
                                                 </div>
                                           </div>
@@ -68,7 +67,7 @@ function SideBar() {
                                                 </div>
                                                 <div>
                                                       <p className="input">Phone</p>
-                                                      <p className="value">+91 6281688435</p>
+                                                      <p className="value">+91 8309048128</p>
                                                 </div>
                                           </div>
                                     </div>
@@ -79,7 +78,7 @@ function SideBar() {
                                                 </div>
                                                 <div>
                                                       <p className="input">Birthday</p>
-                                                      <p className="value">22 Agust, 2003</p>
+                                                      <p className="value">12 Agust, 2003</p>
                                                 </div>
                                           </div>
                                           <div className="content">
@@ -96,7 +95,7 @@ function SideBar() {
                                           <div className="content-icons">
                                                 <a
                                                       className="icon_bottom"
-                                                      href="https://github.com/KrishnaSriTarun"
+                                                      href="https://github.com/SatyaDurgaPaladugula"
                                                       target="_blank"
                                                       rel="noopener noreferrer"
                                                 >
@@ -104,22 +103,14 @@ function SideBar() {
                                                 </a>
                                                 <a
                                                       className="icon_bottom"
-                                                      href="https://www.linkedin.com/in/krishna-sri-tarun"
+                                                      href="www.linkedin.com/in/satya-durga-paladugula"
                                                       target="_blank"
                                                       rel="noopener noreferrer"
                                                 >
                                                       <LinkedInIcon sx={{ fontSize: 30 }} />
                                                 </a>
                                                 <a
-                                                      className="icon_bottom"
-                                                      href="https://www.instagram.com/krishna_sri_tarun_"
-                                                      target="_blank"
-                                                      rel="noopener noreferrer"
-                                                >
-                                                      <InstagramIcon sx={{ fontSize: 30 }} />
-                                                </a>
-                                                <a
-                                                      href="https://leetcode.com/u/KRISHNA_SRI_TARUN/"
+                                                      href="https://leetcode.com/u/Satya_durga/"
                                                       target="_blank"
                                                       rel="noopener noreferrer"
                                                 >

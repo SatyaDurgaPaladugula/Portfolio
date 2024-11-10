@@ -18,7 +18,7 @@ function Education() {
                   </section>
                   <ol className="timeline-list">
                         <li className="timeline-item">
-                              <h1 className="about-head text-white font-semibold text-2xl">B-Tech</h1>
+                              <h1 className="about-head text-white font-semibold text-2xl">B-Tech<span className="text-xl">(Kakinada Institute of Technology and Engineering for Women’s)</span></h1>
                               <h4 className="h4 timeline-item-title">
                                     Artificial Intelligence and Machine Learning
                               </h4>
@@ -30,7 +30,7 @@ function Education() {
                               </p>
                         </li>
                         <li className="timeline-item">
-                              <h1 className="about-head text-white font-semibold text-2xl">Intermediate</h1>
+                              <h1 className="about-head text-white font-semibold text-2xl">Intermediate<span className="text-xl">(Sri Chaitanya Junior College)</span></h1>
                               <h4 className="h4 timeline-item-title">MPC</h4>
                               <span>2019 — 2021</span>
                               <p className="text-base font-medium">
@@ -40,7 +40,7 @@ function Education() {
                               </p>
                         </li>
                         <li className="timeline-item">
-                              <h1 className="about-head text-white font-semibold text-2xl">Schooling</h1>
+                              <h1 className="about-head text-white font-semibold text-2xl">Schooling<span className="text-xl">(Siddhartha English Medium High School)</span></h1>
                               <span>2007 — 2019</span>
                               <p className="text-base font-medium">
                                     Primary and secondary education completed with a broad exposure to various subjects, fostering a curiosity
@@ -62,27 +62,7 @@ function Education() {
                   <ol className="timeline-list mb-4">
                         <li className="timeline-item">
                               <h1 className="about-head text-white font-semibold text-2xl">
-                                    Frontend Developer{" "}
-                                    <span className="text-black text-xl">(GROWTHMATE INFO TECH SOFTWARE SOLUTION PRIVATE LIMITED)</span>
-                              </h1>
-                              <span>11/2024 — 03/2025</span>
-                              <p className="text-base font-medium">
-                                    Frontend Developer skilled in Java Full-Stack with hands-on experience at Growthmate Infotech as a Full Stack Development Intern. I create responsive, user-friendly interfaces using HTML, CSS, JavaScript, and frameworks like React.js and Bootstrap. Passionate about crafting seamless web experiences, blending backend logic with innovative frontend design.
-                              </p>
-                        </li>
-                        <li className="timeline-item">
-                              <h1 className="about-head text-white font-semibold text-2xl">
-                                    Teaching Assistant{" "}
-                                    <span className="text-black text-xl">(Stealth Startup)</span>
-                              </h1>
-                              <span>09/2024 — 02/2025</span>
-                              <p className="text-base font-medium">
-                                    Provided guidance to MERN stack developers, answering technical questions and troubleshooting issues, resulting in improved project development workflows and enhanced collaboration. Contributed innovative ideas to improve project functionality by leveraging insights gained from assisting fellow developers, resulting in more efficient and scalable solutions.
-                              </p>
-                        </li>
-                        <li className="timeline-item">
-                              <h1 className="about-head text-white font-semibold text-2xl">
-                                    Intern <span className="text-black text-xl">(IIIT Hyderabad)</span>
+                                    Backend Developer<span className="text-xl">(IIIT Hyderabad)</span>
                               </h1>
                               <span>08/2023 — 07/2024</span>
                               <p className="text-base font-medium">
@@ -91,7 +71,7 @@ function Education() {
                         </li>
                         <li className="timeline-item">
                               <h1 className="about-head text-white font-semibold text-2xl">
-                                    Intern <span className="text-black text-xl">(Bharath Internship)</span>
+                                    Intern <span className="text-xl">(Bharath Internship)</span>
                               </h1>
                               <span>06/2024 — 07/2024</span>
                               <p className="text-base font-medium">

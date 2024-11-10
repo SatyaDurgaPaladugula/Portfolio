@@ -1,9 +1,8 @@
 import { useState } from "react";
 import emailjs from "emailjs-com";
 import "./Contact.css";
-import GitHubIcon from '@mui/icons-material/GitHub'; // Import the GitHub icon
-import LinkedInIcon from '@mui/icons-material/LinkedIn'; // Import the LinkedIn icon
-import InstagramIcon from '@mui/icons-material/Instagram';
+import GitHubIcon from '@mui/icons-material/GitHub';
+import LinkedInIcon from '@mui/icons-material/LinkedIn'; 
 
 const Contact = () => {
       const [contactData, setContactData] = useState({
@@ -93,25 +92,19 @@ const Contact = () => {
                   <footer className="social-footer">
                         <a
                               className="icon_bottom2"
-                              href="https://github.com/KrishnaSriTarun"
+                              href="https://github.com/SatyaDurgaPaladugula"
                               target="_blank"
                               rel="noopener noreferrer">
                               <GitHubIcon sx={{ fontSize: 30 }} />
                         </a>
                         <a
                               className="icon_bottom2"
-                              href="https://www.linkedin.com/in/krishna-sri-tarun"
+                              href="www.linkedin.com/in/satya-durga-paladugula"
                               target="_blank"
                               rel="noopener noreferrer">
                               <LinkedInIcon sx={{ fontSize: 30 }} />
                         </a>
-                        <a
-                              className="icon_bottom2"
-                              href="https://www.instagram.com/krishna_sri_tarun_"
-                              target="_blank"
-                              rel="noopener noreferrer">
-                              <InstagramIcon sx={{ fontSize: 30 }} />
-                        </a>
+                        
                   </footer>
             </section>
       );
