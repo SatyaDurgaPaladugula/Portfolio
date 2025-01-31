@@ -20,11 +20,11 @@ function Education() {
                         <li className="timeline-item">
                               <h1 className="about-head text-white font-semibold text-2xl">B-Tech<span className="text-xl">(Kakinada Institute of Technology and Engineering for Women’s)</span></h1>
                               <h4 className="h4 timeline-item-title">
-                                    Artificial Intelligence and Machine Learning
+                                    Artificial Intelligence 
                               </h4>
                               <span>2021 — 2025</span>
                               <p className="text-base font-medium">
-                                    Currently pursuing a degree in AI and ML, focusing on machine learning algorithms, data analysis,
+                                    Currently pursuing a degree in AI , focusing on machine learning algorithms, data analysis,
                                     and artificial intelligence applications. Engaged in projects and coursework related to deep learning,
                                     computer vision, and natural language processing to develop practical skills in AI-driven solutions.
                               </p>
@@ -66,7 +66,7 @@ function Education() {
                               </h1>
                               <span>08/2023 — 07/2024</span>
                               <p className="text-base font-medium">
-                                    Developed a To-Do List application using Flask with efficient task management through CRUD operations and RESTful APIs. Enhanced the user interface with responsive design using HTML, CSS, and Bootstrap, ensuring a seamless experience across devices.
+                                    Developed a Job application using Flask with efficient task management through CRUD operations and RESTful APIs. Enhanced the user interface with responsive design using HTML, CSS, and Bootstrap, ensuring a seamless experience across devices.
                               </p>
                         </li>
                         <li className="timeline-item">
